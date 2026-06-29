@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="1949", ATTR{idProduct}=="0324", TAG+="systemd", ENV{SYSTEMD_WANTS}+="kindle-sync.service"

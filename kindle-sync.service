@@ -1,0 +1,7 @@
+[Unit]
+Description=Sync Kindle clippings on connect
+
+[Service]
+Type=oneshot
+User=bodhirasa
+ExecStart=/home/bodhirasa/MyFiles/3_Active/kindle-sync/kindle-sync.sh
